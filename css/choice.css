@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('../img/training.jpeg');
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.choice-bank {
+    margin-top: 150px;
+}
+
+.parent-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card-body a {
+    background-color: #8b0415;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    padding: 12px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.bank {
+    background: transparent;
+    border: none;
+}
+
+
+
+h5 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.card-body a:hover {
+    background-color: #420608;
+    -webkit-box-shadow: 0 0 10px #720411, 0 0 40px #720411, 0 0 80px #720411;
+    box-shadow: 0 0 10px #720411, 0 0 40px #720411, 0 0 80px #720411;
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}

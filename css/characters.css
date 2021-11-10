@@ -1,0 +1,70 @@
+body {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        /* background: linear-gradient(45deg, black, gray); */
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(57, 57, 57, 1) 49%, rgba(0, 0, 0, 1) 100%);
+        font-family: 'Times New Roman', Times, serif;
+        scroll-behavior: smooth;
+        margin-top: 50px;
+        text-align: center;
+}
+
+.char-card {
+        padding: 20px;
+        height: 100%;
+        width: auto;
+}
+
+.charimg {
+        box-shadow: -1px 0px 5px -7px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -1px 0px 5px -7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 0px 5px -7px rgba(0, 0, 0, 0.75);
+        border: 1px solid #585858;
+}
+
+.char-inner {
+        box-shadow: -1px 0px 5px -7px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -1px 0px 5px -7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 0px 5px -7px rgba(0, 0, 0, 0.75);
+        border: 3px solid #54000b;
+        border-radius: 30px;
+}
+.char-hower-img{
+        box-shadow: -1px 0px 5px -7px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -1px 0px 5px -7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 0px 5px -7px rgba(0, 0, 0, 0.75);
+        border: 3px solid #54000b;
+        border-radius: 30px;
+}
+.nameOfChar {
+        color: white;
+        margin-bottom: 48px;
+        text-transform: uppercase;
+}
+
+.header-red {
+        background-color: #8b0415;
+        padding: 8px;
+        font-size: 20px;
+
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 5px;
+        vertical-align: middle
+}
+
+.contentOfChar {
+        color: white;
+        font-size: 22px;
+        text-align: justify;
+}
+
+.content-char {
+        padding: 50px;
+}
+.owl-nav{
+        font-size: 50px;
+        color: #8b0415;
+}
